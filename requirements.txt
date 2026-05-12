@@ -1,0 +1,8 @@
+google-api-python-client
+google-cloud-bigquery
+pandas
+python-dotenv
+streamlit
+plotly
+dbt-bigquery
+mashumaro==3.12

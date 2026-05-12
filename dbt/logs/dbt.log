@@ -1,0 +1,307 @@
+[0m23:02:28.607986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB8A2B9040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB8A2BA1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB89F95160>]}
+
+
+============================== 23:02:28.611986 | 6f448fe4-f2da-4839-bc7c-fb6251e9188b ==============================
+[0m23:02:28.611986 [info ] [MainThread]: Running with dbt=1.11.9
+[0m23:02:28.612984 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\haiaj\\OneDrive\\Desktop\\Coding Projects\\Portfolio\\Sports\\soccer-media-benchmarking\\dbt\\logs'}
+[0m23:02:28.616487 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'GCP_PROJECT_ID'
+[0m23:02:28.617493 [debug] [MainThread]: Command `dbt run` failed at 23:02:28.617493 after 0.10 seconds
+[0m23:02:28.617493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB8684E9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB87922090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB8A4579E0>]}
+[0m23:02:28.618494 [debug] [MainThread]: Flushing usage events
+[0m23:02:28.941693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:03:47.497657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BA8CEB70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BD2E5AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BD022150>]}
+
+
+============================== 23:03:47.500735 | 4ac6fb0b-f67f-433e-817f-9aa6b2053aca ==============================
+[0m23:03:47.500735 [info ] [MainThread]: Running with dbt=1.11.9
+[0m23:03:47.501733 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --project-dir dbt --profiles-dir dbt', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m23:03:49.710323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D79C7080>]}
+[0m23:03:49.751485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D827AD20>]}
+[0m23:03:49.752485 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m23:03:50.062048 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m23:03:50.063048 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:03:50.063048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D7BE3500>]}
+[0m23:03:51.715086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D84B4A70>]}
+[0m23:03:51.764705 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m23:03:51.766705 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m23:03:51.789856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D8B52000>]}
+[0m23:03:51.790856 [info ] [MainThread]: Found 3 models, 1 source, 541 macros
+[0m23:03:51.790856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D89815B0>]}
+[0m23:03:51.791856 [info ] [MainThread]: 
+[0m23:03:51.792855 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:03:51.792855 [info ] [MainThread]: 
+[0m23:03:51.792855 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:03:51.795855 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_soccer-benchmarking'
+[0m23:03:51.796855 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:03:52.657155 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_soccer-benchmarking_soccer_media'
+[0m23:03:52.657155 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:03:53.420248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D82A9130>]}
+[0m23:03:53.420248 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:03:53.471297 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.stg_channels
+[0m23:03:53.471297 [info ] [Thread-1 (]: 1 of 3 START sql view model soccer_media.stg_channels .......................... [RUN]
+[0m23:03:53.472295 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.soccer_benchmarking.stg_channels'
+[0m23:03:53.472295 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.stg_channels
+[0m23:03:53.477295 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.stg_channels"
+[0m23:03:53.479805 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.stg_channels
+[0m23:03:53.500830 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.stg_channels"
+[0m23:03:53.501829 [debug] [Thread-1 (]: On model.soccer_benchmarking.stg_channels: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.stg_channels"} */
+
+
+  create or replace view `soccer-benchmarking`.`soccer_media`.`stg_channels`
+  OPTIONS()
+  as select
+    channel_id,
+    channel_name,
+    cast(subscriber_count as int64) as subscriber_count,
+    cast(view_count as int64)       as view_count,
+    cast(video_count as int64)      as video_count,
+    ingested_at
+from `soccer-benchmarking`.`soccer_media`.`raw_channels`;
+
+
+[0m23:03:53.502831 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:03:54.517472 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:cde54629-686a-43ab-93db-e1391eaff506&page=queryresults
+[0m23:03:55.201915 [debug] [Thread-1 (]: SQL status: OK in 0.683 seconds
+[0m23:03:56.691156 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BD069520>]}
+[0m23:03:56.691156 [info ] [Thread-1 (]: 1 of 3 OK created sql view model soccer_media.stg_channels ..................... [[32mCREATE VIEW (0 processed)[0m in 3.22s]
+[0m23:03:56.692157 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.stg_channels
+[0m23:03:56.693168 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.int_channel_metrics
+[0m23:03:56.693168 [info ] [Thread-1 (]: 2 of 3 START sql view model soccer_media.int_channel_metrics ................... [RUN]
+[0m23:03:56.694156 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.soccer_benchmarking.stg_channels, now model.soccer_benchmarking.int_channel_metrics)
+[0m23:03:56.694156 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.int_channel_metrics
+[0m23:03:56.696156 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.int_channel_metrics"
+[0m23:03:56.697156 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.int_channel_metrics
+[0m23:03:56.699665 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.int_channel_metrics"
+[0m23:03:56.700664 [debug] [Thread-1 (]: On model.soccer_benchmarking.int_channel_metrics: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.int_channel_metrics"} */
+
+
+  create or replace view `soccer-benchmarking`.`soccer_media`.`int_channel_metrics`
+  OPTIONS()
+  as select
+    channel_id,
+    channel_name,
+    subscriber_count,
+    view_count,
+    video_count,
+    ingested_at,
+    safe_divide(view_count, video_count)      as avg_views_per_video,
+    safe_divide(view_count, subscriber_count) as views_per_subscriber
+from `soccer-benchmarking`.`soccer_media`.`stg_channels`;
+
+
+[0m23:03:56.700664 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:03:57.988826 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:8f3831e8-b594-4480-ad3d-ef828989e202&page=queryresults
+[0m23:03:58.402520 [debug] [Thread-1 (]: SQL status: OK in 0.413 seconds
+[0m23:03:58.406520 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7DA1FEF00>]}
+[0m23:03:58.406520 [info ] [Thread-1 (]: 2 of 3 OK created sql view model soccer_media.int_channel_metrics .............. [[32mCREATE VIEW (0 processed)[0m in 1.71s]
+[0m23:03:58.407520 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.int_channel_metrics
+[0m23:03:58.407520 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.channel_performance
+[0m23:03:58.407520 [info ] [Thread-1 (]: 3 of 3 START sql table model soccer_media.channel_performance .................. [RUN]
+[0m23:03:58.409024 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.soccer_benchmarking.int_channel_metrics, now model.soccer_benchmarking.channel_performance)
+[0m23:03:58.409024 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.channel_performance
+[0m23:03:58.411028 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.channel_performance"
+[0m23:03:58.413028 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.channel_performance
+[0m23:03:58.433954 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.channel_performance"
+[0m23:03:58.434952 [debug] [Thread-1 (]: On model.soccer_benchmarking.channel_performance: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.channel_performance"} */
+
+  
+    
+
+    create or replace table `soccer-benchmarking`.`soccer_media`.`channel_performance`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      select
+    channel_name,
+    subscriber_count,
+    view_count,
+    video_count,
+    round(avg_views_per_video, 0)      as avg_views_per_video,
+    round(views_per_subscriber, 4)     as views_per_subscriber,
+    rank() over (
+        order by views_per_subscriber desc
+    )                                  as performance_rank,
+    ingested_at
+from `soccer-benchmarking`.`soccer_media`.`int_channel_metrics`
+    );
+  
+[0m23:03:58.435953 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:03:59.641741 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:ea2327f3-87cb-4e32-bfd5-12dfe40e97e2&page=queryresults
+[0m23:04:01.994016 [debug] [Thread-1 (]: SQL status: OK in 2.352 seconds
+[0m23:04:02.164102 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4ac6fb0b-f67f-433e-817f-9aa6b2053aca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D8B671A0>]}
+[0m23:04:02.165102 [info ] [Thread-1 (]: 3 of 3 OK created sql table model soccer_media.channel_performance ............. [[32mCREATE TABLE (10.0 rows, 0 processed)[0m in 3.76s]
+[0m23:04:02.165102 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.channel_performance
+[0m23:04:02.166102 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:04:02.196625 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:04:02.196625 [debug] [MainThread]: Connection 'list_soccer-benchmarking' was properly closed.
+[0m23:04:02.196625 [debug] [MainThread]: Connection 'list_soccer-benchmarking_soccer_media' was properly closed.
+[0m23:04:02.196625 [debug] [MainThread]: Connection 'model.soccer_benchmarking.channel_performance' was properly closed.
+[0m23:04:02.196625 [info ] [MainThread]: 
+[0m23:04:02.197625 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 10.40 seconds (10.40s).
+[0m23:04:02.197625 [debug] [MainThread]: Command end result
+[0m23:04:02.217451 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m23:04:02.219961 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m23:04:02.223965 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt\target\run_results.json
+[0m23:04:02.224966 [info ] [MainThread]: 
+[0m23:04:02.224966 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:04:02.225966 [info ] [MainThread]: 
+[0m23:04:02.225966 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m23:04:02.226965 [debug] [MainThread]: Command `dbt run` succeeded at 23:04:02.226965 after 14.82 seconds
+[0m23:04:02.226965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BB0AD430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7BD360DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7D87B2900>]}
+[0m23:04:02.226965 [debug] [MainThread]: Flushing usage events
+[0m23:04:02.553789 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:12:47.128524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8FFCF54C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E881F1B0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8824DDFD0>]}
+
+
+============================== 23:12:47.133033 | 2eb2d6a0-244d-428a-b7c3-a82b29b84def ==============================
+[0m23:12:47.133033 [info ] [MainThread]: Running with dbt=1.11.9
+[0m23:12:47.133033 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --project-dir dbt --profiles-dir dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'dbt\\logs'}
+[0m23:12:47.977847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E881E78590>]}
+[0m23:12:48.020400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89CB57380>]}
+[0m23:12:48.020400 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m23:12:48.319594 [debug] [MainThread]: checksum: f8bb6a62265c70f2530bed05e52c2cee1c1844b101d398a67d5798350ab914c5, vars: {}, profile: , target: , version: 1.11.9
+[0m23:12:48.493198 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:12:48.494198 [debug] [MainThread]: Partial parsing: updated file: soccer_benchmarking://models\staging\stg_channels.sql
+[0m23:12:48.666881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89D895DC0>]}
+[0m23:12:48.716142 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m23:12:48.718146 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m23:12:48.727474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89D48FE60>]}
+[0m23:12:48.728474 [info ] [MainThread]: Found 3 models, 1 source, 541 macros
+[0m23:12:48.728474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8818BBE30>]}
+[0m23:12:48.729473 [info ] [MainThread]: 
+[0m23:12:48.730474 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:12:48.730474 [info ] [MainThread]: 
+[0m23:12:48.731473 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:12:48.734992 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_soccer-benchmarking'
+[0m23:12:48.734992 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:49.553671 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_soccer-benchmarking_soccer_media'
+[0m23:12:49.554671 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:50.333819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89D1B7170>]}
+[0m23:12:50.334820 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:12:50.368348 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.stg_channels
+[0m23:12:50.368348 [info ] [Thread-1 (]: 1 of 3 START sql view model soccer_media.stg_channels .......................... [RUN]
+[0m23:12:50.369347 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.soccer_benchmarking.stg_channels'
+[0m23:12:50.369347 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.stg_channels
+[0m23:12:50.374658 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.stg_channels"
+[0m23:12:50.375658 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.stg_channels
+[0m23:12:50.396685 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.stg_channels"
+[0m23:12:50.397684 [debug] [Thread-1 (]: On model.soccer_benchmarking.stg_channels: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.stg_channels"} */
+
+
+  create or replace view `soccer-benchmarking`.`soccer_media`.`stg_channels`
+  OPTIONS()
+  as select
+    channel_id,
+    channel_name,
+    cast(subscriber_count as int64) as subscriber_count,
+    cast(view_count as int64)       as view_count,
+    cast(video_count as int64)      as video_count,
+    ingested_at
+from `soccer-benchmarking`.`soccer_media`.`raw_channels`
+qualify row_number() over (
+    partition by channel_id
+    order by ingested_at desc
+) = 1;
+
+
+[0m23:12:50.397684 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:12:51.393715 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:fe7c30f8-8e11-4c07-b66d-432f70e46b37&page=queryresults
+[0m23:12:51.679438 [debug] [Thread-1 (]: SQL status: OK in 0.286 seconds
+[0m23:12:51.757040 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89D029430>]}
+[0m23:12:51.758040 [info ] [Thread-1 (]: 1 of 3 OK created sql view model soccer_media.stg_channels ..................... [[32mCREATE VIEW (0 processed)[0m in 1.39s]
+[0m23:12:51.758040 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.stg_channels
+[0m23:12:51.759039 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.int_channel_metrics
+[0m23:12:51.759039 [info ] [Thread-1 (]: 2 of 3 START sql view model soccer_media.int_channel_metrics ................... [RUN]
+[0m23:12:51.760039 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.soccer_benchmarking.stg_channels, now model.soccer_benchmarking.int_channel_metrics)
+[0m23:12:51.760039 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.int_channel_metrics
+[0m23:12:51.761038 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.int_channel_metrics"
+[0m23:12:51.762542 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.int_channel_metrics
+[0m23:12:51.764552 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.int_channel_metrics"
+[0m23:12:51.765552 [debug] [Thread-1 (]: On model.soccer_benchmarking.int_channel_metrics: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.int_channel_metrics"} */
+
+
+  create or replace view `soccer-benchmarking`.`soccer_media`.`int_channel_metrics`
+  OPTIONS()
+  as select
+    channel_id,
+    channel_name,
+    subscriber_count,
+    view_count,
+    video_count,
+    ingested_at,
+    safe_divide(view_count, video_count)      as avg_views_per_video,
+    safe_divide(view_count, subscriber_count) as views_per_subscriber
+from `soccer-benchmarking`.`soccer_media`.`stg_channels`;
+
+
+[0m23:12:51.765552 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:12:52.762692 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:bb7f0977-b52c-4637-bb6c-803fae3a3d62&page=queryresults
+[0m23:12:53.188384 [debug] [Thread-1 (]: SQL status: OK in 0.426 seconds
+[0m23:12:53.192385 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89EE3EC00>]}
+[0m23:12:53.192889 [info ] [Thread-1 (]: 2 of 3 OK created sql view model soccer_media.int_channel_metrics .............. [[32mCREATE VIEW (0 processed)[0m in 1.43s]
+[0m23:12:53.192889 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.int_channel_metrics
+[0m23:12:53.193893 [debug] [Thread-1 (]: Began running node model.soccer_benchmarking.channel_performance
+[0m23:12:53.193893 [info ] [Thread-1 (]: 3 of 3 START sql table model soccer_media.channel_performance .................. [RUN]
+[0m23:12:53.194893 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.soccer_benchmarking.int_channel_metrics, now model.soccer_benchmarking.channel_performance)
+[0m23:12:53.194893 [debug] [Thread-1 (]: Began compiling node model.soccer_benchmarking.channel_performance
+[0m23:12:53.196893 [debug] [Thread-1 (]: Writing injected SQL for node "model.soccer_benchmarking.channel_performance"
+[0m23:12:53.197894 [debug] [Thread-1 (]: Began executing node model.soccer_benchmarking.channel_performance
+[0m23:12:53.205406 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:12:53.903692 [debug] [Thread-1 (]: Writing runtime sql for node "model.soccer_benchmarking.channel_performance"
+[0m23:12:53.904692 [debug] [Thread-1 (]: On model.soccer_benchmarking.channel_performance: /* {"app": "dbt", "dbt_version": "1.11.9", "profile_name": "soccer_benchmarking", "target_name": "dev", "node_id": "model.soccer_benchmarking.channel_performance"} */
+
+  
+    
+
+    create or replace table `soccer-benchmarking`.`soccer_media`.`channel_performance`
+      
+    
+    
+
+    
+    OPTIONS()
+    as (
+      select
+    channel_name,
+    subscriber_count,
+    view_count,
+    video_count,
+    round(avg_views_per_video, 0)      as avg_views_per_video,
+    round(views_per_subscriber, 4)     as views_per_subscriber,
+    rank() over (
+        order by views_per_subscriber desc
+    )                                  as performance_rank,
+    ingested_at
+from `soccer-benchmarking`.`soccer_media`.`int_channel_metrics`
+    );
+  
+[0m23:12:54.406210 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=soccer-benchmarking&j=bq:US:8cf71e51-acf3-4c81-be85-95b960d8ec09&page=queryresults
+[0m23:12:57.114694 [debug] [Thread-1 (]: SQL status: OK in 2.708 seconds
+[0m23:12:57.261365 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2eb2d6a0-244d-428a-b7c3-a82b29b84def', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E89EF03C50>]}
+[0m23:12:57.262365 [info ] [Thread-1 (]: 3 of 3 OK created sql table model soccer_media.channel_performance ............. [[32mCREATE TABLE (6.0 rows, 0 processed)[0m in 4.07s]
+[0m23:12:57.262870 [debug] [Thread-1 (]: Finished running node model.soccer_benchmarking.channel_performance
+[0m23:12:57.263875 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:12:57.294398 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:12:57.295402 [debug] [MainThread]: Connection 'list_soccer-benchmarking' was properly closed.
+[0m23:12:57.295402 [debug] [MainThread]: Connection 'list_soccer-benchmarking_soccer_media' was properly closed.
+[0m23:12:57.295402 [debug] [MainThread]: Connection 'model.soccer_benchmarking.channel_performance' was properly closed.
+[0m23:12:57.295402 [info ] [MainThread]: 
+[0m23:12:57.296403 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 8.56 seconds (8.56s).
+[0m23:12:57.297401 [debug] [MainThread]: Command end result
+[0m23:12:57.315916 [debug] [MainThread]: Wrote artifact WritableManifest to dbt\target\manifest.json
+[0m23:12:57.317919 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt\target\semantic_manifest.json
+[0m23:12:57.323428 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt\target\run_results.json
+[0m23:12:57.323428 [info ] [MainThread]: 
+[0m23:12:57.323428 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:12:57.324428 [info ] [MainThread]: 
+[0m23:12:57.324428 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m23:12:57.324428 [debug] [MainThread]: Command `dbt run` succeeded at 23:12:57.324428 after 10.28 seconds
+[0m23:12:57.325427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8825E1700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E882391FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8826EA870>]}
+[0m23:12:57.325427 [debug] [MainThread]: Flushing usage events
+[0m23:12:57.630375 [debug] [MainThread]: An error was encountered while trying to flush usage events
